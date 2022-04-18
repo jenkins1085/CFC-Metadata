@@ -1,0 +1,272 @@
+{
+  "promotionRoutes": {
+    "SUN": "SEC",
+    "MAC": "B10",
+    "AAC": "ACC",
+    "CUSA": "B12",
+    "MWC": "PAC"
+  },
+  "baseYear": 2014,
+  "relegationRoutes": {
+    "SEC": "SUN",
+    "B10": "MAC",
+    "ACC": "AAC",
+    "B12": "CUSA",
+    "PAC": "MWC"
+  },
+  "conferences": [
+    {
+      "confFullName": "Southeastern",
+      "confPrestige": "95",
+      "confName": "SEC",
+      "confTeams": [
+        {
+          "name": "Alabama",
+          "state": "Alabama",
+          "abbreviation": "ALA",
+          "rival": ["AUB"],
+          "rivalryNames": {
+              "AUB": "Iron Bowl"
+          },
+          "prestige": "95",
+          "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Auburn",
+            "state": "Alabama",
+            "abbreviation": "AUB",
+            "rival": ["ALA"],
+            "rivalryNames": {
+                "ALA": "Iron Bowl"
+            },
+            "prestige": "90",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Georgia",
+            "state": "Georgia",
+            "abbreviation": "UGA",
+            "rival": ["FLA"],
+            "rivalryNames": {
+                "FLA": "World's Largest Cocktail Party"
+            },
+            "prestige": "90",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Florida",
+            "state": "Florida",
+            "abbreviation": "FLA",
+            "rival": ["UGA"],
+            "rivalryNames": {
+                "UGA": "World's Largest Cocktail Party"
+            },
+            "prestige": "90",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Ole Miss",
+            "state": "Mississippi",
+            "abbreviation": "OLE",
+            "rival": ["MISS"],
+            "rivalryNames": {
+                "MISS": "Egg Bowl"
+            },
+            "prestige": "85",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Mississippi State",
+            "state": "Mississippi",
+            "abbreviation": "MISS",
+            "rival": ["OLE"],
+            "rivalryNames": {
+                "OLE": "Egg Bowl"
+            },
+            "prestige": "85",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Kentucky",
+            "state": "Kentucky",
+            "abbreviation": "UK",
+            "rival": ["SC"],
+            "rivalryNames": {
+                "SC": "Appalachian Bash"
+            },
+            "prestige": "80",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "South Carolina",
+            "state": "South Carolina",
+            "abbreviation": "SC",
+            "rival": ["UK"],
+            "rivalryNames": {
+                "UK": "Appalachian Bash"
+            },
+            "prestige": "80",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Arkansas",
+            "state": "Arkansas",
+            "abbreviation": "ARK",
+            "rival": ["MO"],
+            "rivalryNames": {
+                "MO": "Ozark Bowl"
+            },
+            "prestige": "85",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Missouri",
+            "state": "Missouri",
+            "abbreviation": "MO",
+            "rival": ["ARK"],
+            "rivalryNames": {
+                "ARK": "Ozark Bowl"
+            },
+            "prestige": "80",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Texas A&M",
+            "state": "Texas",
+            "abbreviation": "TAMU",
+            "rival": ["LSU"],
+            "rivalryNames": {
+                "LSU": "Sabine Showdown"
+            },
+            "prestige": "90",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Louisiana State",
+            "state": "Louisiana",
+            "abbreviation": "LSU",
+            "rival": ["TAMU"],
+            "rivalryNames": {
+                "TAMU": "Sabine Showdown"
+            },
+            "prestige": "90",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Tennessee",
+            "state": "Tennessee",
+            "abbreviation": "UTK",
+            "rival": ["VAN"],
+            "rivalryNames": {
+                "VAN": "Battle for I-40"
+            },
+            "prestige": "90",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Vanderbilt",
+            "state": "Tennessee",
+            "abbreviation": "VAN",
+            "rival": ["UTK"],
+            "rivalryNames": {
+                "UTK": "Battle for I-40"
+            },
+            "prestige": "75",
+            "hexColor": "#e6e6e6"
+        }
+      ]
+    },
+    {
+        "confFullName": "Big 10",
+        "confPrestige": "95",
+        "confName": "B10",
+        "confTeams": []
+    },
+    {
+        "confFullName": "Atlantic Coast",
+        "confPrestige": "90",
+        "confName": "ACC",
+        "confTeams": []
+    },
+    {
+        "confFullName": "Big 12",
+        "confPrestige": "90",
+        "confName": "B12",
+        "confTeams": []
+    },
+    {
+        "confFullName": "Pacific Coast",
+        "confPrestige": "85",
+        "confName": "PAC",
+        "confTeams": []
+    },
+    {
+        "confFullName": "Sun Belt",
+        "confPrestige": "75",
+        "confName": "SUN",
+        "confTeams": []
+    },
+    {
+        "confFullName": "Mid American",
+        "confPrestige": "60",
+        "confName": "MAC",
+        "confTeams": []
+    },
+    {
+        "confFullName": "American Athletic",
+        "confPrestige": "75",
+        "confName": "AAC",
+        "confTeams": []
+    },
+    {
+        "confFullName": "Conference USA",
+        "confPrestige": "65",
+        "confName": "CUSA",
+        "confTeams": []
+    },
+    {
+        "confFullName": "Mountain West",
+        "confPrestige": "70",
+        "confName": "MWC",
+        "confTeams": []
+    }
+  ],
+  "bowlGames": [
+    "Rose Bowl",
+    "Peach Bowl",
+    "Sugar Bowl",
+    "Cotton Bowl",
+    "Orange Bowl",
+    "Fiesta Bowl",
+    "Sun Bowl",
+    "Gator Bowl",
+    "Citrus Bowl",
+    "Liberty Bowl",
+    "Independence Bowl",
+    "Holiday Bowl",
+    "Tampa Bay Bowl",
+    "Gauranteed Rate Bowl",
+    "Cheez-It Bowl",
+    "Las Vegas Bowl",
+    "Alamo Bowl",
+    "Idaho Potato Bowl",
+    "Music City Bowl",
+    "Lending Tree Bowl",
+    "New Orleans Bowl",
+    "San Fransisco Bowl",
+    "Hawaii Bowl",
+    "Duke's Mayo Bowl",
+    "Armed Forces Bowl",
+    "Texas Bowl",
+    "Birmingham Bowl",
+    "New Mexico Bowl",
+    "Military Bowl",
+    "Gasparilla Bowl",
+    "Pinstripe Bowl",
+    "First Responder Bowl",
+    "Bahamas Bowl",
+    "Boca Raton Bowl",
+    "Camellia Bowl",
+    "Quick Lane Bowl"
+  ]
+}
