@@ -804,7 +804,7 @@
               {
                 "name": "Toledo",
                 "state": "Ohio",
-                "abbreviation": "",
+                "abbreviation": "TOL",
                 "rival": ["BGSU"],
                 "rivalryNames": {},
                 "prestige": "60",
@@ -1066,7 +1066,7 @@
                 "hexColor": "#e6e6e6"
               },
               {
-                "name": "San Diego State University",
+                "name": "San Diego State",
                 "state": "California",
                 "abbreviation": "SDSU",
                 "rival": ["UNLV"],
