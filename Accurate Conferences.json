@@ -484,7 +484,7 @@
                 "hexColor": "#e6e6e6"
               },
               {
-                "name": "UC-Los Angeles",
+                "name": "UC Los Angeles",
                 "state": "California",
                 "abbreviation": "UCLA",
                 "rival": ["USC"],
@@ -678,7 +678,7 @@
                 "hexColor": "#e6e6e6"
               },
               {
-                "name": "UL-Lafayette",
+                "name": "UL Lafayette",
                 "state": "Louisiana",
                 "abbreviation": "RAGE",
                 "rival": ["ULM"],
@@ -714,7 +714,7 @@
                 "hexColor": "#e6e6e6"
               },
               {
-                "name": "UL-Monroe",
+                "name": "UL Monroe",
                 "state": "Louisiana",
                 "abbreviation": "ULM",
                 "rival": ["RAGE"],
@@ -784,7 +784,7 @@
                 "hexColor": "#e6e6e6"
               },
               {
-                "name": "Miami (OH)",
+                "name": "Miami OH",
                 "state": "Ohio",
                 "abbreviation": "MIOH",
                 "rival": ["OHIO"],
@@ -1084,7 +1084,7 @@
                 "hexColor": "#e6e6e6"
               },
               {
-                "name": "UN-Las Vegas",
+                "name": "UN Las Vegas",
                 "state": "Nevada",
                 "abbreviation": "UNLV",
                 "rival": ["SDSU"],
@@ -1190,7 +1190,7 @@
                 "hexColor": "#e6e6e6"
               },
               {
-                "name": "UA-Birmingham",
+                "name": "UA Birmingham",
                 "state": "Alabama",
                 "abbreviation": "UAB",
                 "rival": ["ECU"],
@@ -1199,7 +1199,7 @@
                 "hexColor": "#e6e6e6"
               },
               {
-                "name": "UT-San Antonio",
+                "name": "UT San Antonio",
                 "state": "Texas",
                 "abbreviation": "UTSA",
                 "rival": ["RICE"],
