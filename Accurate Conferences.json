@@ -2,17 +2,19 @@
   "promotionRoutes": {
     "SUN": "SEC",
     "MAC": "B10",
-    "AAC": "ACC",
+    "COL": "ACC",
     "CUSA": "B12",
-    "MWC": "PAC"
+    "MWC": "PAC",
+    "AAC": "GWC"
   },
   "baseYear": 2014,
   "relegationRoutes": {
     "SEC": "SUN",
     "B10": "MAC",
-    "ACC": "AAC",
+    "ACC": "COL",
     "B12": "CUSA",
-    "PAC": "MWC"
+    "PAC": "MWC",
+    "AAC": "GWC"
   },
   "conferences": [
     {
@@ -43,14 +45,12 @@
             "hexColor": "#e6e6e6"
         },
         {
-            "name": "Georgia",
-            "state": "Georgia",
-            "abbreviation": "UGA",
-            "rival": ["FLA"],
-            "rivalryNames": {
-                "FLA": "World's Largest Cocktail Party"
-            },
-            "prestige": "90",
+            "name": "Arkansas",
+            "state": "Arkansas",
+            "abbreviation": "ARK",
+            "rival": [],
+            "rivalryNames": {},
+            "prestige": "85",
             "hexColor": "#e6e6e6"
         },
         {
@@ -65,78 +65,12 @@
             "hexColor": "#e6e6e6"
         },
         {
-            "name": "Ole Miss",
-            "state": "Mississippi",
-            "abbreviation": "OLE",
-            "rival": ["MISS"],
+            "name": "Georgia",
+            "state": "Georgia",
+            "abbreviation": "UGA",
+            "rival": ["FLA"],
             "rivalryNames": {
-                "MISS": "Egg Bowl"
-            },
-            "prestige": "85",
-            "hexColor": "#e6e6e6"
-        },
-        {
-            "name": "Mississippi State",
-            "state": "Mississippi",
-            "abbreviation": "MISS",
-            "rival": ["OLE"],
-            "rivalryNames": {
-                "OLE": "Egg Bowl"
-            },
-            "prestige": "85",
-            "hexColor": "#e6e6e6"
-        },
-        {
-            "name": "Kentucky",
-            "state": "Kentucky",
-            "abbreviation": "UK",
-            "rival": ["SC"],
-            "rivalryNames": {
-                "SC": "Appalachian Bash"
-            },
-            "prestige": "80",
-            "hexColor": "#e6e6e6"
-        },
-        {
-            "name": "South Carolina",
-            "state": "South Carolina",
-            "abbreviation": "SC",
-            "rival": ["UK"],
-            "rivalryNames": {
-                "UK": "Appalachian Bash"
-            },
-            "prestige": "80",
-            "hexColor": "#e6e6e6"
-        },
-        {
-            "name": "Arkansas",
-            "state": "Arkansas",
-            "abbreviation": "ARK",
-            "rival": ["MO"],
-            "rivalryNames": {
-                "MO": "Ozark Bowl"
-            },
-            "prestige": "85",
-            "hexColor": "#e6e6e6"
-        },
-        {
-            "name": "Missouri",
-            "state": "Missouri",
-            "abbreviation": "MO",
-            "rival": ["ARK"],
-            "rivalryNames": {
-                "ARK": "Ozark Bowl"
-            },
-            "prestige": "80",
-            "hexColor": "#e6e6e6"
-        },
-        {
-            "name": "Texas A&M",
-            "state": "Texas",
-            "abbreviation": "TAMU",
-            "rival": ["LSU"],
-            "rivalryNames": {
-                "LSU": "Sabine Showdown"
+                "FLA": "World's Largest Cocktail Party"
             },
             "prestige": "90",
             "hexColor": "#e6e6e6"
@@ -153,25 +87,45 @@
             "hexColor": "#e6e6e6"
         },
         {
-            "name": "Tennessee",
-            "state": "Tennessee",
-            "abbreviation": "UTK",
-            "rival": ["VAN"],
+            "name": "Oklahoma",
+            "state": "Oklahoma",
+            "abbreviation": "OKLA",
+            "rival": ["UTA"],
             "rivalryNames": {
-                "VAN": "Battle for I-40"
+                "UTA": "Red River Shootout"
             },
             "prestige": "90",
             "hexColor": "#e6e6e6"
         },
         {
-            "name": "Vanderbilt",
+            "name": "Tennessee",
             "state": "Tennessee",
-            "abbreviation": "VAN",
-            "rival": ["UTK"],
+            "abbreviation": "UTK",
+            "rival": [],
+            "rivalryNames": {},
+            "prestige": "90",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Texas",
+            "state": "Texas",
+            "abbreviation": "UTA",
+            "rival": ["OKLA"],
             "rivalryNames": {
-                "UTK": "Battle for I-40"
+                "OKLA": "Red River Shootout"
             },
-            "prestige": "75",
+            "prestige": "95",
+            "hexColor": "#e6e6e6"
+        },
+        {
+            "name": "Texas A&M",
+            "state": "Texas",
+            "abbreviation": "TAMU",
+            "rival": ["LSU"],
+            "rivalryNames": {
+                "LSU": "Sabine Showdown"
+            },
+            "prestige": "85",
             "hexColor": "#e6e6e6"
         }
       ]
@@ -180,55 +134,1080 @@
         "confFullName": "Big 10",
         "confPrestige": "95",
         "confName": "B10",
-        "confTeams": []
+        "confTeams": [
+            {
+                "name": "Indiana",
+                "state": "Indiana",
+                "abbreviation": "INDY",
+                "rival": ["PUR"],
+                "rivalryNames": {
+                    "PUR": "The Bucket Game"
+                },
+                "prestige": "80",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Illinois",
+                  "state": "Illinois",
+                  "abbreviation": "ILLI",
+                  "rival": ["NU"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Michigan",
+                  "state": "Michigan",
+                  "abbreviation": "UM",
+                  "rival": ["OSU"],
+                  "rivalryNames": {
+                      "OSU": "The Game"
+                  },
+                  "prestige": "95",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Michigan State",
+                  "state": "Michigan",
+                  "abbreviation": "MSU",
+                  "rival": ["PSU"],
+                  "rivalryNames": {},
+                  "prestige": "90",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Minnesota",
+                  "state": "Minnesota",
+                  "abbreviation": "MINN",
+                  "rival": ["UWM"],
+                  "rivalryNames": {
+                      "UWM": "The Axe Game"
+                  },
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Northwestern",
+                  "state": "Illinois",
+                  "abbreviation": "NU",
+                  "rival": ["ILLI"],
+                  "rivalryNames": {},
+                  "prestige": "75",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Ohio State",
+                  "state": "Ohio",
+                  "abbreviation": "OSU",
+                  "rival": ["UM"],
+                  "rivalryNames": {
+                      "UM": "The Game"
+                  },
+                  "prestige": "95",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Penn State",
+                  "state": "Pennsylvania",
+                  "abbreviation": "PSU",
+                  "rival": ["MSU"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Purdue",
+                  "state": "Indiana",
+                  "abbreviation": "PUR",
+                  "rival": ["INDY"],
+                  "rivalryNames": {
+                      "INDY": "The Bucket Game"
+                  },
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Wisconsin",
+                  "state": "Wisconsin",
+                  "abbreviation": "UWM",
+                  "rival": ["MINN"],
+                  "rivalryNames": {
+                      "MINN": "The Axe Game"
+                  },
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              }
+        ]
     },
     {
         "confFullName": "Atlantic Coast",
         "confPrestige": "90",
         "confName": "ACC",
-        "confTeams": []
+        "confTeams": [
+            {
+                "name": "Clemson",
+                "state": "South Carolina",
+                "abbreviation": "CLEM",
+                "rival": ["GTU"],
+                "rivalryNames": {},
+                "prestige": "95",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Duke",
+                  "state": "North Carolina",
+                  "abbreviation": "DUKE",
+                  "rival": ["UNC"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Florida State",
+                  "state": "Florida",
+                  "abbreviation": "FSU",
+                  "rival": ["MIA"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Georgia Tech",
+                  "state": "Georgia",
+                  "abbreviation": "GTU",
+                  "rival": ["CLEM"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Miami",
+                  "state": "Florida",
+                  "abbreviation": "MIA",
+                  "rival": ["FSU"],
+                  "rivalryNames": {},
+                  "prestige": "90",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "North Carolina",
+                  "state": "North Carolina",
+                  "abbreviation": "UNC",
+                  "rival": ["DUKE"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "North Carolina State",
+                  "state": "North Carolina",
+                  "abbreviation": "NCST",
+                  "rival": ["WFU"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Virginia",
+                  "state": "Virginia",
+                  "abbreviation": "UVA",
+                  "rival": ["VT"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Virginia Tech",
+                  "state": "Virginia",
+                  "abbreviation": "VT",
+                  "rival": ["UVA"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Wake Forest",
+                  "state": "North Carolina",
+                  "abbreviation": "WFU",
+                  "rival": ["NCST"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              }
+        ]
     },
     {
         "confFullName": "Big 12",
         "confPrestige": "90",
         "confName": "B12",
-        "confTeams": []
+        "confTeams": [
+            {
+                "name": "Baylor",
+                "state": "Texas",
+                "abbreviation": "BAY",
+                "rival": ["TCU"],
+                "rivalryNames": {},
+                "prestige": "85",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Cincinnati",
+                  "state": "Ohio",
+                  "abbreviation": "UC",
+                  "rival": ["WVU"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Houston",
+                  "state": "Texas",
+                  "abbreviation": "HOU",
+                  "rival": ["TTU"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Iowa State",
+                  "state": "Iowa",
+                  "abbreviation": "ISU",
+                  "rival": ["OKST"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Kansas",
+                  "state": "Kansas",
+                  "abbreviation": "UKAN",
+                  "rival": ["UKST"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Kansas State",
+                  "state": "Kansas",
+                  "abbreviation": "UKST",
+                  "rival": ["UKAN"],
+                  "rivalryNames": {},
+                  "prestige": "80",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Oklahoma State",
+                  "state": "Oklahoma",
+                  "abbreviation": "OKST",
+                  "rival": ["ISU"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Texas Christian",
+                  "state": "Texas",
+                  "abbreviation": "TCU",
+                  "rival": ["BAY"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "Texas Tech",
+                  "state": "Texas",
+                  "abbreviation": "TTU",
+                  "rival": ["HOU"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              },
+              {
+                  "name": "West Virginia",
+                  "state": "West Virginia",
+                  "abbreviation": "WVU",
+                  "rival": ["UC"],
+                  "rivalryNames": {},
+                  "prestige": "85",
+                  "hexColor": "#e6e6e6"
+              }
+        ]
     },
     {
         "confFullName": "Pacific Coast",
         "confPrestige": "85",
         "confName": "PAC",
-        "confTeams": []
+        "confTeams": [
+            {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              }
+        ]
+    },
+    {
+        "confFullName": "Great West",
+        "confPrestige": "85",
+        "confName": "GWC",
+        "confTeams": [
+            {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              }
+        ]
     },
     {
         "confFullName": "Sun Belt",
-        "confPrestige": "75",
+        "confPrestige": "70",
         "confName": "SUN",
-        "confTeams": []
+        "confTeams": [
+            {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              }
+        ]
     },
     {
         "confFullName": "Mid American",
-        "confPrestige": "60",
+        "confPrestige": "65",
         "confName": "MAC",
-        "confTeams": []
+        "confTeams": [
+            {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              }
+        ]
     },
     {
-        "confFullName": "American Athletic",
-        "confPrestige": "75",
-        "confName": "AAC",
-        "confTeams": []
+        "confFullName": "Colonial",
+        "confPrestige": "80",
+        "confName": "COL",
+        "confTeams": [
+            {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              }
+        ]
     },
     {
         "confFullName": "Conference USA",
         "confPrestige": "65",
         "confName": "CUSA",
-        "confTeams": []
+        "confTeams": [
+            {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              }
+        ]
     },
     {
         "confFullName": "Mountain West",
         "confPrestige": "70",
         "confName": "MWC",
-        "confTeams": []
+        "confTeams": [
+            {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              }
+        ]
+    },
+    {
+        "confFullName": "American Athletic",
+        "confPrestige": "75",
+        "confName": "AAC",
+        "confTeams": [
+            {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              },
+              {
+                "name": "",
+                "state": "",
+                "abbreviation": "",
+                "rival": [""],
+                "rivalryNames": {},
+                "prestige": "",
+                "hexColor": "#e6e6e6"
+              }
+        ]
     }
   ],
   "bowlGames": [
