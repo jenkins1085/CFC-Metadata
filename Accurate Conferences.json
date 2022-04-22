@@ -136,6 +136,15 @@
         "confName": "B10",
         "confTeams": [
             {
+              "name": "Illinois",
+              "state": "Illinois",
+              "abbreviation": "ILLI",
+              "rival": ["NU"],
+              "rivalryNames": {},
+              "prestige": "85",
+              "hexColor": "#13294B"
+          },  
+          {
                 "name": "Indiana",
                 "state": "Indiana",
                 "abbreviation": "INDY",
@@ -144,16 +153,7 @@
                     "PUR": "The Bucket Game"
                 },
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
-              },
-              {
-                  "name": "Illinois",
-                  "state": "Illinois",
-                  "abbreviation": "ILLI",
-                  "rival": ["NU"],
-                  "rivalryNames": {},
-                  "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                "hexColor": "#990000"
               },
               {
                   "name": "Michigan",
@@ -164,7 +164,7 @@
                       "OSU": "The Game"
                   },
                   "prestige": "95",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#00274C"
               },
               {
                   "name": "Michigan State",
@@ -173,7 +173,7 @@
                   "rival": ["PSU"],
                   "rivalryNames": {},
                   "prestige": "90",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#18453B"
               },
               {
                   "name": "Minnesota",
@@ -184,7 +184,7 @@
                       "UWM": "The Axe Game"
                   },
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#7A0019"
               },
               {
                   "name": "Northwestern",
@@ -193,7 +193,7 @@
                   "rival": ["ILLI"],
                   "rivalryNames": {},
                   "prestige": "75",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#4E2A84"
               },
               {
                   "name": "Ohio State",
@@ -204,7 +204,7 @@
                       "UM": "The Game"
                   },
                   "prestige": "95",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#BB0000"
               },
               {
                   "name": "Penn State",
@@ -213,7 +213,7 @@
                   "rival": ["MSU"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#041E42"
               },
               {
                   "name": "Purdue",
@@ -224,7 +224,7 @@
                       "INDY": "The Bucket Game"
                   },
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#CEB888"
               },
               {
                   "name": "Wisconsin",
@@ -235,7 +235,7 @@
                       "MINN": "The Axe Game"
                   },
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#C5050C"
               }
         ]
     },
@@ -251,7 +251,7 @@
                 "rival": ["GTU"],
                 "rivalryNames": {},
                 "prestige": "95",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#F56600"
               },
               {
                   "name": "Duke",
@@ -260,7 +260,7 @@
                   "rival": ["UNC"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#003087"
               },
               {
                   "name": "Florida State",
@@ -269,7 +269,7 @@
                   "rival": ["MIA"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#782F40"
               },
               {
                   "name": "Georgia Tech",
@@ -278,7 +278,7 @@
                   "rival": ["CLEM"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#B3A369"
               },
               {
                   "name": "Miami",
@@ -287,7 +287,7 @@
                   "rival": ["FSU"],
                   "rivalryNames": {},
                   "prestige": "90",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#F47321"
               },
               {
                   "name": "North Carolina",
@@ -296,7 +296,7 @@
                   "rival": ["DUKE"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#7BAFD4"
               },
               {
                   "name": "North Carolina State",
@@ -305,7 +305,7 @@
                   "rival": ["WFU"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#CC0000"
               },
               {
                   "name": "Virginia",
@@ -314,7 +314,7 @@
                   "rival": ["VT"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#232D4B"
               },
               {
                   "name": "Virginia Tech",
@@ -323,7 +323,7 @@
                   "rival": ["UVA"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#630031"
               },
               {
                   "name": "Wake Forest",
@@ -332,7 +332,7 @@
                   "rival": ["NCST"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#9E7E38"
               }
         ]
     },
@@ -348,7 +348,7 @@
                 "rival": ["TCU"],
                 "rivalryNames": {},
                 "prestige": "85",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#154734"
               },
               {
                   "name": "Cincinnati",
@@ -357,7 +357,7 @@
                   "rival": ["WVU"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#E00122"
               },
               {
                   "name": "Houston",
@@ -366,7 +366,7 @@
                   "rival": ["TTU"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#C8102E"
               },
               {
                   "name": "Iowa State",
@@ -375,7 +375,7 @@
                   "rival": ["OKST"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#C8102E"
               },
               {
                   "name": "Kansas",
@@ -384,7 +384,7 @@
                   "rival": ["UKST"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#0051BA"
               },
               {
                   "name": "Kansas State",
@@ -393,7 +393,7 @@
                   "rival": ["UKAN"],
                   "rivalryNames": {},
                   "prestige": "80",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#512888"
               },
               {
                   "name": "Oklahoma State",
@@ -402,7 +402,7 @@
                   "rival": ["ISU"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#FF7300"
               },
               {
                   "name": "Texas Christian",
@@ -411,7 +411,7 @@
                   "rival": ["BAY"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#4D1979"
               },
               {
                   "name": "Texas Tech",
@@ -420,7 +420,7 @@
                   "rival": ["HOU"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#CC0000"
               },
               {
                   "name": "West Virginia",
@@ -429,7 +429,7 @@
                   "rival": ["UC"],
                   "rivalryNames": {},
                   "prestige": "85",
-                  "hexColor": "#e6e6e6"
+                  "hexColor": "#002855"
               }
         ]
     },
@@ -445,7 +445,7 @@
                 "rival": ["STAN"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#003262"
               },
               {
                 "name": "Colorado",
@@ -454,7 +454,7 @@
                 "rival": ["UTAH"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#CFB87C"
               },
               {
                 "name": "Oregon",
@@ -463,7 +463,7 @@
                 "rival": ["ORSU"],
                 "rivalryNames": {},
                 "prestige": "90",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#154733"
               },
               {
                 "name": "Oregon State",
@@ -472,7 +472,7 @@
                 "rival": ["ORE"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#DC4405"
               },
               {
                 "name": "Stanford",
@@ -481,7 +481,7 @@
                 "rival": ["CAL"],
                 "rivalryNames": {},
                 "prestige": "85",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#8C1515"
               },
               {
                 "name": "UC Los Angeles",
@@ -490,7 +490,7 @@
                 "rival": ["USC"],
                 "rivalryNames": {},
                 "prestige": "90",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#2D68C4"
               },
               {
                 "name": "Utah",
@@ -499,7 +499,7 @@
                 "rival": ["COL"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#CC0000"
               },
               {
                 "name": "South California",
@@ -508,7 +508,7 @@
                 "rival": ["USCLA"],
                 "rivalryNames": {},
                 "prestige": "85",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#990000"
               },
               {
                 "name": "Washington",
@@ -517,7 +517,7 @@
                 "rival": ["WSU"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#4B2E83"
               },
               {
                 "name": "Washington State",
@@ -526,7 +526,7 @@
                 "rival": ["WAS"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#981E32"
               }
         ]
     },
@@ -542,7 +542,7 @@
                 "rival": ["BYU"],
                 "rivalryNames": {},
                 "prestige": "75",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#003087"
               },
               {
                 "name": "Arizona",
@@ -551,7 +551,7 @@
                 "rival": ["ASU"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#CC0033"
               },
               {
                 "name": "Arizona State",
@@ -560,7 +560,7 @@
                 "rival": ["AZ"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#8C1D40"
               },
               {
                 "name": "Brigham Young",
@@ -569,7 +569,7 @@
                 "rival": ["AIRF"],
                 "rivalryNames": {},
                 "prestige": "75",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#002E5D"
               },
               {
                 "name": "Iowa",
@@ -578,7 +578,7 @@
                 "rival": ["UNL"],
                 "rivalryNames": {},
                 "prestige": "85",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#FFCD00"
               },
               {
                 "name": "Mississippi State",
@@ -587,7 +587,7 @@
                 "rival": ["OLE"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#660000"
               },
               {
                 "name": "Missouri",
@@ -596,7 +596,7 @@
                 "rival": ["VAN"],
                 "rivalryNames": {},
                 "prestige": "80",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#000000"
               },
               {
                 "name": "Nebraska",
@@ -605,7 +605,7 @@
                 "rival": ["IOWA"],
                 "rivalryNames": {},
                 "prestige": "85",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#E41C38"
               },
               {
                 "name": "Ole Miss",
@@ -614,7 +614,7 @@
                 "rival": ["MISS"],
                 "rivalryNames": {},
                 "prestige": "85",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#CE1126"
               },
               {
                 "name": "Vanderbilt",
@@ -623,7 +623,7 @@
                 "rival": ["MO"],
                 "rivalryNames": {},
                 "prestige": "75",
-                "hexColor": "#e6e6e6"
+                "hexColor": "#866D4B"
               }
         ]
     },
