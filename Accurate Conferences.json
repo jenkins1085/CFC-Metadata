@@ -31,7 +31,16 @@
               "AUB": "Iron Bowl"
           },
           "prestige": "95",
-          "hexColor": "#e6e6e6"
+          "hexColor": "#9E1B32"
+        },
+        {
+          "name": "Arkansas",
+          "state": "Arkansas",
+          "abbreviation": "ARK",
+          "rival": ["UTK"],
+          "rivalryNames": {},
+          "prestige": "85",
+          "hexColor": "#9D2235"
         },
         {
             "name": "Auburn",
@@ -42,16 +51,7 @@
                 "ALA": "Iron Bowl"
             },
             "prestige": "90",
-            "hexColor": "#e6e6e6"
-        },
-        {
-            "name": "Arkansas",
-            "state": "Arkansas",
-            "abbreviation": "ARK",
-            "rival": ["UTK"],
-            "rivalryNames": {},
-            "prestige": "85",
-            "hexColor": "#e6e6e6"
+            "hexColor": "#0C2340"
         },
         {
             "name": "Florida",
@@ -62,7 +62,7 @@
                 "UGA": "World's Largest Cocktail Party"
             },
             "prestige": "90",
-            "hexColor": "#e6e6e6"
+            "hexColor": "#0021A5"
         },
         {
             "name": "Georgia",
@@ -73,7 +73,7 @@
                 "FLA": "World's Largest Cocktail Party"
             },
             "prestige": "90",
-            "hexColor": "#e6e6e6"
+            "hexColor": "#BA0C2F"
         },
         {
             "name": "Louisiana State",
@@ -84,7 +84,7 @@
                 "TAMU": "Sabine Showdown"
             },
             "prestige": "90",
-            "hexColor": "#e6e6e6"
+            "hexColor": "#461D7C"
         },
         {
             "name": "Oklahoma",
@@ -95,7 +95,7 @@
                 "UTA": "Red River Shootout"
             },
             "prestige": "90",
-            "hexColor": "#e6e6e6"
+            "hexColor": "#841617"
         },
         {
             "name": "Tennessee",
@@ -104,7 +104,7 @@
             "rival": ["ARK"],
             "rivalryNames": {},
             "prestige": "90",
-            "hexColor": "#e6e6e6"
+            "hexColor": "#FF8200"
         },
         {
             "name": "Texas",
@@ -115,7 +115,7 @@
                 "OKLA": "Red River Shootout"
             },
             "prestige": "95",
-            "hexColor": "#e6e6e6"
+            "hexColor": "#BF5700"
         },
         {
             "name": "Texas A&M",
@@ -126,7 +126,7 @@
                 "LSU": "Sabine Showdown"
             },
             "prestige": "85",
-            "hexColor": "#e6e6e6"
+            "hexColor": "#500000"
         }
       ]
     },
