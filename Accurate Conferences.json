@@ -61,7 +61,7 @@
             "rivalryNames": {
                 "UGA": "World's Largest Cocktail Party"
             },
-            "prestige": "90",
+            "prestige": "80",
             "hexColor": "#0021A5"
         },
         {
@@ -72,11 +72,11 @@
             "rivalryNames": {
                 "FLA": "World's Largest Cocktail Party"
             },
-            "prestige": "90",
+            "prestige": "95",
             "hexColor": "#BA0C2F"
         },
         {
-            "name": "Louisiana State",
+            "name": "LSU",
             "state": "Louisiana",
             "abbreviation": "LSU",
             "rival": ["TAMU"],
@@ -94,7 +94,7 @@
             "rivalryNames": {
                 "UTA": "Red River Shootout"
             },
-            "prestige": "90",
+            "prestige": "88",
             "hexColor": "#841617"
         },
         {
@@ -114,7 +114,7 @@
             "rivalryNames": {
                 "OKLA": "Red River Shootout"
             },
-            "prestige": "95",
+            "prestige": "85",
             "hexColor": "#BF5700"
         },
         {
@@ -125,7 +125,7 @@
             "rivalryNames": {
                 "LSU": "Sabine Showdown"
             },
-            "prestige": "85",
+            "prestige": "80",
             "hexColor": "#500000"
         }
       ]
@@ -141,7 +141,7 @@
               "abbreviation": "ILLI",
               "rival": ["NU"],
               "rivalryNames": {},
-              "prestige": "85",
+              "prestige": "79",
               "hexColor": "#13294B"
           },  
           {
@@ -152,7 +152,7 @@
                 "rivalryNames": {
                     "PUR": "The Bucket Game"
                 },
-                "prestige": "80",
+                "prestige": "70",
                 "hexColor": "#990000"
               },
               {
@@ -172,7 +172,7 @@
                   "abbreviation": "MSU",
                   "rival": ["PSU"],
                   "rivalryNames": {},
-                  "prestige": "90",
+                  "prestige": "89", 
                   "hexColor": "#18453B"
               },
               {
@@ -223,7 +223,7 @@
                   "rivalryNames": {
                       "INDY": "The Bucket Game"
                   },
-                  "prestige": "80",
+                  "prestige": "75",
                   "hexColor": "#CEB888"
               },
               {
@@ -234,7 +234,7 @@
                   "rivalryNames": {
                       "MINN": "The Axe Game"
                   },
-                  "prestige": "85",
+                  "prestige": "80",
                   "hexColor": "#C5050C"
               }
         ]
@@ -277,7 +277,7 @@
                   "abbreviation": "GTU",
                   "rival": ["CLEM"],
                   "rivalryNames": {},
-                  "prestige": "80",
+                  "prestige": "75",
                   "hexColor": "#B3A369"
               },
               {
@@ -286,7 +286,7 @@
                   "abbreviation": "MIA",
                   "rival": ["FSU"],
                   "rivalryNames": {},
-                  "prestige": "90",
+                  "prestige": "80",
                   "hexColor": "#F47321"
               },
               {
@@ -313,7 +313,7 @@
                   "abbreviation": "UVA",
                   "rival": ["VT"],
                   "rivalryNames": {},
-                  "prestige": "85",
+                  "prestige": "77",
                   "hexColor": "#232D4B"
               },
               {
@@ -322,7 +322,7 @@
                   "abbreviation": "VT",
                   "rival": ["UVA"],
                   "rivalryNames": {},
-                  "prestige": "80",
+                  "prestige": "75", 
                   "hexColor": "#630031"
               },
               {
@@ -331,7 +331,7 @@
                   "abbreviation": "WFU",
                   "rival": ["NCST"],
                   "rivalryNames": {},
-                  "prestige": "80",
+                  "prestige": "75",
                   "hexColor": "#9E7E38"
               }
         ]
@@ -374,7 +374,7 @@
                   "abbreviation": "ISU",
                   "rival": ["OKST"],
                   "rivalryNames": {},
-                  "prestige": "85",
+                  "prestige": "80",
                   "hexColor": "#C8102E"
               },
               {
@@ -405,12 +405,12 @@
                   "hexColor": "#FF7300"
               },
               {
-                  "name": "Texas Christian",
+                  "name": "TCU",
                   "state": "Texas",
                   "abbreviation": "TCU",
                   "rival": ["BAY"],
                   "rivalryNames": {},
-                  "prestige": "85",
+                  "prestige": "90",
                   "hexColor": "#4D1979"
               },
               {
@@ -428,7 +428,7 @@
                   "abbreviation": "WVU",
                   "rival": ["UC"],
                   "rivalryNames": {},
-                  "prestige": "85",
+                  "prestige": "78",
                   "hexColor": "#002855"
               }
         ]
@@ -484,7 +484,7 @@
                 "hexColor": "#8C1515"
               },
               {
-                "name": "UC Los Angeles",
+                "name": "UCLA",
                 "state": "California",
                 "abbreviation": "UCLA",
                 "rival": ["USC"],
@@ -502,7 +502,7 @@
                 "hexColor": "#CC0000"
               },
               {
-                "name": "South California",
+                "name": "USC",
                 "state": "California",
                 "abbreviation": "USC",
                 "rival": ["USCLA"],
@@ -563,12 +563,12 @@
                 "hexColor": "#8C1D40"
               },
               {
-                "name": "Brigham Young",
+                "name": "BYU",
                 "state": "Utah",
                 "abbreviation": "BYU",
                 "rival": ["AIRF"],
                 "rivalryNames": {},
-                "prestige": "75",
+                "prestige": "80",
                 "hexColor": "#002E5D"
               },
               {
@@ -604,7 +604,7 @@
                 "abbreviation": "UNL",
                 "rival": ["IOWA"],
                 "rivalryNames": {},
-                "prestige": "85",
+                "prestige": "75",
                 "hexColor": "#E41C38"
               },
               {
@@ -850,7 +850,7 @@
                 "abbreviation": "UCF",
                 "rival": ["SC"],
                 "rivalryNames": {},
-                "prestige": "80",
+                "prestige": "76",
                 "hexColor": "#BA9B37"
               },
               {
@@ -877,7 +877,7 @@
                 "abbreviation": "MARY",
                 "rival": ["BC"],
                 "rivalryNames": {},
-                "prestige": "80",
+                "prestige": "75",
                 "hexColor": "#E03A3E"
               },
               {
@@ -886,7 +886,7 @@
                 "abbreviation": "NAVY",
                 "rival": ["ARMY"],
                 "rivalryNames": {},
-                "prestige": "75",
+                "prestige": "70",
                 "hexColor": "#00205B"
               },
               {
@@ -1084,7 +1084,7 @@
                 "hexColor": "#0055A2"
               },
               {
-                "name": "UN Las Vegas",
+                "name": "UNLV",
                 "state": "Nevada",
                 "abbreviation": "UNLV",
                 "rival": ["SDSU"],
@@ -1154,7 +1154,7 @@
                 "hexColor": "#00205B"
               },
               {
-                "name": "Southern Methodist",
+                "name": "SMU",
                 "state": "Texas",
                 "abbreviation": "SMU",
                 "rival": ["UNT"],
@@ -1190,7 +1190,7 @@
                 "hexColor": "#002D72"
               },
               {
-                "name": "UA Birmingham",
+                "name": "UAB",
                 "state": "Alabama",
                 "abbreviation": "UAB",
                 "rival": ["ECU"],
@@ -1199,7 +1199,7 @@
                 "hexColor": "#006341"
               },
               {
-                "name": "UT San Antonio",
+                "name": "UTSA",
                 "state": "Texas",
                 "abbreviation": "UTSA",
                 "rival": ["RICE"],
@@ -1245,7 +1245,7 @@
     "First Responder Bowl",
     "Bahamas Bowl",
     "Boca Raton Bowl",
-    "Camellia Bowl",
+    "Chick-Fil-A Bowl",
     "Quick Lane Bowl",
     "TEST BOWL"
   ]
